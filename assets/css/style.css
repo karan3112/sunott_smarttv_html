@@ -1,0 +1,172 @@
+@charset "utf-8";
+/* CSS Document */
+@font-face {
+    font-family: 'breezesansbold';
+    src: url('../fonts/breezesans-bold_20150728-webfont.woff2') format('woff2'),
+         url('../fonts/breezesans-bold_20150728-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'breezesansbold_condensed';
+    src: url('../fonts/breezesans-boldcondensed_20150728-webfont.woff2') format('woff2'),
+         url('../fonts/breezesans-boldcondensed_20150728-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'breezesanslight';
+    src: url('../fonts/breezesans-light_20150728-webfont.woff2') format('woff2'),
+         url('../fonts/breezesans-light_20150728-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'breezesanslight_condensed';
+    src: url('../fonts/breezesans-lightcondensed_20150728-webfont.woff2') format('woff2'),
+         url('../fonts/breezesans-lightcondensed_20150728-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'breezesansmedium';
+    src: url('../fonts/breezesans-medium_20150728-webfont.woff2') format('woff2'),
+         url('../fonts/breezesans-medium_20150728-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'breezesansmedium_condensed';
+    src: url('../fonts/breezesans-mediumcondensed_20150728-webfont.woff2') format('woff2'),
+         url('../fonts/breezesans-mediumcondensed_20150728-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'breezesansregular';
+    src: url('../fonts/breezesans-regular_20150728-webfont.woff2') format('woff2'),
+         url('../fonts/breezesans-regular_20150728-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'breezesanscondensed';
+    src: url('../fonts/breezesans-regularcondensed_20150728-webfont.woff2') format('woff2'),
+         url('../fonts/breezesans-regularcondensed_20150728-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'breezesansthin';
+    src: url('../fonts/breezesans-thin_20150728-webfont.woff2') format('woff2'),
+         url('../fonts/breezesans-thin_20150728-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'breezesansthin_condensed';
+    src: url('../fonts/breezesans-thincondensed_20150728-webfont.woff2') format('woff2'),
+         url('../fonts/breezesans-thincondensed_20150728-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+body {font-family: 'breezesansregular'; -webkit-font-smoothing: subpixel-antialiased;-webkit-text-stroke: rgba(255,255,255,0.01) 0.1px; -webkit-text-stroke-width: 0.1px; /*Safari & crome font smoothness*/ background:url(../images/bg.jpg) no-repeat top center #f2f2f2; background-size:cover; overflow-x:hidden; font-size:100%;}
+a {outline:none;}
+a:hover, a:focus {text-decoration:none;outline:none;}
+
+/*.col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-xs-1, .col-xs-10, .col-xs-11, .col-xs-12, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9
+{padding-left:12px; padding-right:12px;}
+*/
+.wrapper {margin:auto;}
+
+.logo_section {width:100%; }
+.logo_section .logo {float:right; padding:55px 100px 165px 0;}
+.showcase_wrap {width:100%; margin-bottom:40px;}
+.showcase_wrap:hover {z-index:1;}
+.showcase_wrap .show_thumb {}
+.showcase_wrap a h2 span.title {color:#fff}
+.showcase_wrap .show_thumb_inn { position:relative;transition: all 0.8s ease; -webkit-transition: all 0.8s ease;}
+.showcase_wrap .show_img {width:100%; height:60%; overflow:hidden;}
+.showcase_wrap .show_img img {width:100%;}
+.blk_overlay {width:100%; height:100%; position:absolute; left:0; top:0; background:rgba(0,0,0,0.54);transition: all 0.8s ease; -webkit-transition: all 0.8s ease;}
+.show_detail {background:#9b9b9b; min-height:85px; padding:15px;transition: all 0.8s ease; -webkit-transition: all 0.8s ease;}
+.show_detail h2 {padding:0; margin:0;}
+.show_detail h2 span.title {font-size:60%; color:#fff; font-weight:normal; width:100%; float:left; }
+.show_detail h2 span.icon {width:15%; float:right;}
+.show_detail h2 span.icon img {position: relative; top: -5px; float:right;}
+.showcase_wrap .show_thumb:hover .show_thumb_inn {transform:scale(1.4); z-index:1;box-shadow: 0px 6px 20.37px 0.63px rgba(0, 0, 0, 0.75);}
+.showcase_wrap .show_thumb:hover .show_thumb_inn .blk_overlay {background:rgba(0,0,0,0);}
+.showcase_wrap .show_thumb:hover .show_detail {background:#b17049;}
+.showcase_wrap .show_thumb.see:hover .show_detail {background:#175878;}
+
+
+.flickity-viewport {overflow:inherit;}
+.recommend .showcase_wrap .show_img {height:250px;}
+.recommend .showcase_wrap a h2 span.title {width:80%; }
+
+.mmenu {z-index:1; background:#a80929;color:#cdcdcd; }
+.mmenu ul, .mmenu li, .mmenu li > a {width:100%; display:block; margin:0; padding:15px 0 15px 15px;color:#cdcdcd;font-size:1.2em;font-family: 'breezesansbold_condensed'; line-height:31px;}
+.mmenu li > a {padding:0;transition: all 0.5s ease; -webkit-transition: all 0.5s ease;}
+.mmenu li:hover a {transform:scale(1.2); transform-origin: top left; color:#fff;}
+
+.mmenu li span.icon {width:31px; height:31px; display:inline-block; background:url(../images/menu_icon.png) no-repeat;margin-right: 15px;}
+
+.mmenu li span.icon.home {background-position:0 5px;}
+.mmenu li:hover span.icon.home {background-position:-70px 5px;}
+
+.mmenu li span.icon.movie {background-position:0 -92px;}
+.mmenu li:hover span.icon.movie {background-position:-70px -92px;}
+
+.mmenu li span.icon.tvshow {background-position:0 -177px;}
+.mmenu li:hover span.icon.tvshow {background-position:-70px -177px;}
+
+.mmenu li span.icon.originals {background-position:0 -271px;}
+.mmenu li:hover span.icon.originals {background-position:-70px -271px;}
+
+.mmenu li span.icon.kids_movies {background-position:0 -373px;}
+.mmenu li:hover span.icon.kids_movies {background-position:-70px -373px;}
+
+.mmenu li span.icon.kids_show {background-position:0 -463px;}
+.mmenu li:hover span.icon.kids_show {background-position:-70px -463px;}
+
+.mmenu li span.icon.music {background-position:0 -554px;}
+.mmenu li:hover span.icon.music {background-position:-70px -554px;}
+
+.mmenu li span.icon.live {background-position:0 -645px;}
+.mmenu li:hover span.icon.live {background-position:-70px -645px;}
+
+.mmenu li span.icon.profile {background-position:0 -735px;}
+.mmenu li:hover span.icon.profile {background-position:-70px -735px;}
+
+.mmenu li span.icon.settings {background-position:0 -825px;}
+.mmenu li:hover span.icon.settings {background-position:-70px -825px;}
+
+.mmenu li span.icon.subscription {background-position:0 -919px;}
+.mmenu li:hover span.icon.subscription {background-position:-70px -919px;}
+
+.menu_hit {width:15px; height:100%; background:#a80929; position:fixed; z-index:9}
+
+#page {overflow:hidden}
+.mmenu li:first-child:hover a {transform:scale(1);}
+
+
+
+
+
+
+
+
+
+
+
