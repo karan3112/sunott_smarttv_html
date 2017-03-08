@@ -1,0 +1,90 @@
+<svg id="search" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="124" height="124" viewBox="0 0 124 124">
+  <metadata><?xpacket begin="﻿" id="W5M0MpCehiHzreSzNTczkc9d"?>
+<x:xmpmeta xmlns:x="adobe:ns:meta/" x:xmptk="Adobe XMP Core 5.6-c138 79.159824, 2016/09/14-01:09:01        ">
+   <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <rdf:Description rdf:about=""/>
+   </rdf:RDF>
+</x:xmpmeta>
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                           
+<?xpacket end="w"?></metadata>
+<defs>
+    <style>
+      .cls-1, .cls-2, .cls-3 {
+        fill: #fff;
+      }
+
+      .cls-1, .cls-2, .cls-4 {
+        fill-rule: evenodd;
+      }
+
+      .cls-1 {
+        filter: url(#filter);
+      }
+
+      .cls-2 {
+        filter: url(#filter-2);
+      }
+
+      .cls-3 {
+        fill-opacity: 0;
+        stroke-linejoin: round;
+        stroke-width: 2px;
+        stroke: url(#linear-gradient);
+      }
+
+      .cls-4 {
+        fill: #ee3897;
+        filter: url(#filter-3);
+      }
+    </style>
+    <filter id="filter" x="1" y="13" width="122" height="123" filterUnits="userSpaceOnUse">
+      <feOffset result="offset" dy="12" in="SourceAlpha"/>
+      <feGaussianBlur result="blur" stdDeviation="4.472"/>
+      <feFlood result="flood" flood-opacity="0.3"/>
+      <feComposite result="composite" operator="in" in2="blur"/>
+      <feBlend result="blend" in="SourceGraphic"/>
+    </filter>
+    <filter id="filter-2" x="-3" y="5" width="130" height="131" filterUnits="userSpaceOnUse">
+      <feOffset result="offset" dy="8" in="SourceAlpha"/>
+      <feGaussianBlur result="blur" stdDeviation="4.899"/>
+      <feFlood result="flood" flood-opacity="0.13"/>
+      <feComposite result="composite" operator="in" in2="blur"/>
+      <feBlend result="blend" in="SourceGraphic"/>
+    </filter>
+    <linearGradient id="linear-gradient" x1="62" y1="104" x2="62" y2="20" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-opacity="0.039"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0.4"/>
+    </linearGradient>
+    <filter id="filter-3" x="41" y="41" width="42" height="42" filterUnits="userSpaceOnUse">
+      <feFlood result="flood" flood-color="#a80929"/>
+      <feComposite result="composite" operator="in" in2="SourceGraphic"/>
+      <feBlend result="blend" in2="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="bg">
+    <path id="FAB_copy" data-name="FAB copy" class="cls-1" d="M61.5,19.993c22.923,0,41.507,18.805,41.507,42S84.421,104,61.5,104,19.991,85.192,19.991,62,38.574,19.993,61.5,19.993Z"/>
+    <path id="FAB" class="cls-2" d="M61.5,19.993c22.923,0,41.507,18.805,41.507,42S84.421,104,61.5,104,19.991,85.192,19.991,62,38.574,19.993,61.5,19.993Z"/>
+    <circle id="FAB_highlight" data-name="FAB highlight" class="cls-3" cx="62" cy="62" r="42"/>
+  </g>
+  <path class="cls-4" d="M71,67.4H69.08l-0.72-.72A15.023,15.023,0,0,0,72.2,56.6,15.6,15.6,0,1,0,56.6,72.2a15.022,15.022,0,0,0,10.08-3.84l0.72,0.72V71l12,12L83,79.4Zm-14.4,0A10.8,10.8,0,1,1,67.4,56.6,10.755,10.755,0,0,1,56.6,67.4Z"/>
+</svg>

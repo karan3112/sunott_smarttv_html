@@ -1,0 +1,137 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?d6zd9u');
+  src:  url('fonts/icomoon.eot?d6zd9u#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?d6zd9u') format('truetype'),
+    url('fonts/icomoon.woff?d6zd9u') format('woff'),
+    url('fonts/icomoon.svg?d6zd9u#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-icn_forward:before {
+  content: "\e900";
+}
+.icon-icn_pause:before {
+  content: "\e901";
+}
+.icon-icn_rewind:before {
+  content: "\e902";
+}
+.icon-icn_search .path1:before {
+  content: "\e903";
+  color: rgb(255, 255, 255);
+}
+.icon-icn_search .path2:before {
+  content: "\e904";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-icn_search .path3:before {
+  content: "\e905";
+  margin-left: -1em;
+  color: rgb(238, 56, 151);
+}
+.icon-icn_talk:before {
+  content: "\e906";
+}
+.icon-icn_tv_assets_app_language .path1:before {
+  content: "\e907";
+  color: rgb(0, 0, 0);
+}
+.icon-icn_tv_assets_app_language .path2:before {
+  content: "\e908";
+  margin-left: -1em;
+  color: rgb(1, 1, 1);
+}
+.icon-icn_tv_assets_app_language .path3:before {
+  content: "\e909";
+  margin-left: -1em;
+  color: rgb(1, 1, 1);
+}
+.icon-icn_tv_assets_content_language .path1:before {
+  content: "\e90a";
+  color: rgb(0, 0, 0);
+}
+.icon-icn_tv_assets_content_language .path2:before {
+  content: "\e90b";
+  margin-left: -1em;
+  color: rgb(1, 1, 1);
+}
+.icon-icn_tv_assets_content_language .path3:before {
+  content: "\e90c";
+  margin-left: -1em;
+  color: rgb(1, 1, 1);
+}
+.icon-icn_tv_assets_content_language .path4:before {
+  content: "\e90d";
+  margin-left: -1em;
+  color: rgb(1, 1, 1);
+}
+.icon-icn_tv_assets_exit_fullscreen:before {
+  content: "\e90e";
+}
+.icon-icn_tv_assets_geo_location:before {
+  content: "\e90f";
+}
+.icon-icn_tv_assets_home:before {
+  content: "\e910";
+}
+.icon-icn_tv_assets_kids-movies:before {
+  content: "\e911";
+}
+.icon-icn_tv_assets_live-tv:before {
+  content: "\e912";
+}
+.icon-icn_tv_assets_movies:before {
+  content: "\e913";
+}
+.icon-icn_tv_assets_music:before {
+  content: "\e914";
+}
+.icon-icn_tv_assets_originals:before {
+  content: "\e915";
+}
+.icon-icn_tv_assets_profile:before {
+  content: "\e916";
+}
+.icon-icn_tv_assets_rating:before {
+  content: "\e917";
+}
+.icon-icn_tv_assets_settings-1:before {
+  content: "\e918";
+}
+.icon-icn_tv_assets_settings:before {
+  content: "\e919";
+}
+.icon-icn_tv_assets_subscription:before {
+  content: "\e91a";
+}
+.icon-icn_tv_assets_subtitles:before {
+  content: "\e91b";
+}
+.icon-icn_tv_assets_tv-shows:before {
+  content: "\e91c";
+}
+.icon-icn_tv_assets_video_setting:before {
+  content: "\e91d";
+}
+.icon-icn_video_play:before {
+  content: "\e91e";
+}
+
