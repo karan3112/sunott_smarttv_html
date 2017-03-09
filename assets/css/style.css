@@ -93,7 +93,9 @@
 }
 
 
-body {font-family: 'breezesansregular'; -webkit-font-smoothing: subpixel-antialiased;-webkit-text-stroke: rgba(255,255,255,0.01) 0.1px; -webkit-text-stroke-width: 0.1px; /*Safari & crome font smoothness*/ background:url(../images/bg.jpg) no-repeat top center #f2f2f2; background-size:cover; overflow-x:hidden; font-size:100%;}
+body {font-family: 'breezesansregular'; -webkit-font-smoothing: subpixel-antialiased;-webkit-text-stroke: rgba(255,255,255,0.01) 0.1px; -webkit-text-stroke-width: 0.1px; /*Safari & crome font smoothness*/ 
+background:url(../images/bg.jpg) no-repeat top center #f2f2f2; background-size:cover; overflow-x:hidden; font-size:100%;}
+
 a {outline:none;}
 a:hover, a:focus {text-decoration:none;outline:none;}
 
@@ -132,7 +134,7 @@ a:hover, a:focus {text-decoration:none;outline:none;}
 .mmenu ul, .mmenu li, .mmenu li > a {width:100%; display:block; margin:0; padding:15px 0 15px 15px;color:#cdcdcd;font-size:1.2em;font-family: 'breezesansbold_condensed'; line-height:31px;}
 .mmenu li > a {padding:0;transition: all 0.5s ease; -webkit-transition: all 0.5s ease;}
 .mmenu li:hover a {transform:scale(1.2); transform-origin: top left; color:#fff;}
-
+.mmenu li span.icon {font-size:1.2em; margin-right: 15px; display:inline-block;}
 /*.mmenu li span.icon {width:31px; height:31px; display:inline-block; background:url(../images/menu_icon.png) no-repeat;margin-right: 15px;}
 
 .mmenu li span.icon.home {background-position:0 5px;}
@@ -173,9 +175,14 @@ a:hover, a:focus {text-decoration:none;outline:none;}
 #page {overflow:hidden}
 .mmenu li:first-child:hover a {transform:scale(1);}
 
-.mmenu li span.icon {font-size:1.2em;}
+h2.main_title {font-family: 'breezesansregular'; font-size:3.2em; color:#868686; font-weight:normal; padding-left:15px;}
 
+.overlay_txt {font-size:2em; color:#fff; position:absolute; top:30%; width:100%; text-align:center;}
 
+.section_active h2.main_title {color:#333333;}
+.section_active .blk_overlay {display:none;}
+
+.movie_detail_bg .wrapper {background:url(../images/movies/movie_detail_bg.jpg) no-repeat left top #f2f2f2; background-size:100%;}
 
 
 
