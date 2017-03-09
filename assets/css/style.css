@@ -182,7 +182,31 @@ h2.main_title {font-family: 'breezesansregular'; font-size:3.2em; color:#868686;
 .section_active h2.main_title {color:#333333;}
 .section_active .blk_overlay {display:none;}
 
+.container-fluid.main_container {padding-right:0;}
+
+/*Movie Detail start here*/
+body.movie_detail_bg {background-image:none;}
 .movie_detail_bg .wrapper {background:url(../images/movies/movie_detail_bg.jpg) no-repeat left top #f2f2f2; background-size:100%;}
+.movie_detail_wrap {margin-top:15px}
+.movie_detail_wrap .tabs_wrap {width:100%; background:#435d72; padding:15px 0}
+.tabs_inn {width:80%; margin:auto;}
+.tabs_wrap .tabs_inn .nav li {font-size:2.2em; text-transform:uppercase;}
+.tabs_wrap .tabs_inn .nav li a {color:#fff; border-radius:0; border:none; margin-right:20px}
+.tabs_wrap .tabs_inn .nav-tabs {border:none;}
+.tabs_wrap .tabs_inn .nav-tabs > li.active > a, .tabs_wrap .tabs_inn .nav-tabs > li.active > a:focus, .tabs_wrap .tabs_inn .nav-tabs > li.active > a:hover {color: #fff; cursor: default;background-color:rgba(255,255,255,0.3);border: none;}
+.tabs_wrap .tabs_inn .nav > li > a:focus, .tabs_wrap .tabs_inn .nav > li > a:hover {background:rgba(255,255,255,0.3); border:none;}
+.tabs_content {width:100%; background:#112841;}
+.movie_intro {font-size:1.8em; color:#fff;}
+.movie_thumb img {margin-top:-160px;}
+.movie_thumb img {width:100%;}
+.movie_intro_txt h2 {font-size:3em;font-family: 'breezesanslight';}
+.movie_intro_txt h3 {font-size:1.5em; margin-bottom:20px;}
+.movie_intro_txt p {padding-bottom:20px;}
+.play_icon {position:absolute; top:35%; color:#000; z-index:2; left:40%; font-size:6em; opacity:0.8; }
+.round_thumb .show_thumb_inn {padding-top:20px;}
+.round_thumb .show_img {border-radius:50%; width:80%; margin:auto;}
+.round_thumb .show_thumb_inn {background:#9b9b9b;}
+.round_thumb .show_detail {margin-top:20px;}
 
 
 
