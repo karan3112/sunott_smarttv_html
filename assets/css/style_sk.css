@@ -1,0 +1,28 @@
+@charset "utf-8";
+/* CSS Document */
+.show_detail h3 .sub-title {
+    font-size: 60%;
+    color: #fff;
+    font-weight: normal;
+    width: 100%;
+    float: left;
+    text-transform: uppercase;
+    margin-top: 10px;
+}
+.kids_movies_landing .showcase_wrap .show_thumb:hover .show_detail, .kids_tv_shows_landing .showcase_wrap .show_thumb:hover .show_detail {
+    background: #5968c8;
+}
+h3.main_sub_title {
+    font-family: 'breezesansregular';
+    font-size: 2.286em;
+    color: #868686;
+    font-weight: normal;
+    padding-left: 15px;
+}
+.live_tv_landing h2.main_title { font-family: 'breezesansregular'; }
+/*TV Shows Details*/
+body.tv_shows_detail_bg {background-image:none;}
+.tv_shows_detail_bg .wrapper {background:url(../images/tv_shows/tv_shows_detail_bg.jpg) no-repeat left top #f2f2f2; background-size:100%;}
+.tv_shows_detail_wrap {margin-top:15px}
+.tv_shows_detail_wrap .tabs_wrap {width:100%; background:#ac7e1b; padding:15px 0}
+.tv_shows_detail_wrap .tabs_content { background: #885007; }
