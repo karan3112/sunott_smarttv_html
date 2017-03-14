@@ -263,3 +263,68 @@ body.movie_detail_bg {background-image:none;}
     }
 }*/
 /*Equal 5 coloumb ends here*/
+
+/*Modal fixes*/
+body.modal-open .modal-backdrop {  z-index: 1;}
+body.modal-open .menu_hit { z-index: -1}
+html.mmenu-opened body.modal-open #mmenu-blocker {z-index:0;}
+#myModal .modal {z-index:2!important;}
+
+.search_bt {background:transparent; padding:0; margin:0; border:none; outline:none;}
+.search_bt:hover, .search_bt:focus, .search_bt:active {background:transparent;}
+.btn-info.search_bt.active.focus, .btn-info.search_bt.active:focus, .btn-info.search_bt.active:hover, .btn-info.search_bt.focus:active, .btn-info.search_bt:active:focus, .btn-info.search_bt:active:hover, .open > .dropdown-toggle.btn-info.search_bt.focus, .open > .dropdown-toggle.btn-info.search_bt:focus, .open > .dropdown-toggle.btn-info:hover {background:transparent;}
+
+.search_modal .modal-content {box-shadow:none; background:transparent; border:0; }
+.search_modal .modal-dialog {width:100%;}
+.speak_input input {width:100%; font-size:3em; color:#464646; padding:20px 40px; background:rgba(255,255,255,0.8); border:none; border-radius:10px}
+.search_modal .search_bt {position: relative; top: -22px;}
+
+.modal.right{ padding-right: 0px !important;  }
+.modal.right .modal-dialog{
+  margin: 0;
+  margin-left: auto;
+  width: 470px;
+  height: 100%;
+}
+.modal.right .modal-dialog .modal-content{
+  border-radius: 0; border:none;
+  height: 100%; overflow: auto;
+}
+.setting_wrap {width:100%; margin-bottom:40px; padding-left:15px;}
+a.body_setting { color:#333333; font-size:7em; display:inline-block; padding:20px; border-radius:50%; line-height:20px; }
+a.body_setting:hover, a.body_setting:focus, a.body_setting:active {background:#bcbdbe; color:#333333;}
+.setting_col {}
+.setting_title {color:#464545; font-size:2.5em; clear:both; width:100%;}
+.setting_title .icon { width:15%; float:left; color:#010101;}
+.setting_title .h2txt {width:85%; float:right; color:#464545;}
+.setting_col {margin-bottom:40px; width:100%; float:left;}
+.checkbox {width:100%; float:left;}
+/*.checkbox label {width:85%; float:left;}
+.checkbox input {float:right;}
+*/
+
+.setting_col .checkbox label::before {right:0; left:auto; border-radius:4px; border:1px solid #333;}
+.setting_col .checkbox-danger input[type="checkbox"]:checked + label::before, .checkbox-danger input[type="radio"]:checked + label::before {background-color: #a80929; border-color: #a80929;}
+.setting_col .checkbox label::after {right:0; left:auto}
+.setting_col .checkbox label {width:100%; font-size:2em;}
+.setting_col .checkbox {padding-left: 60px;}
+
+
+
+
+.geo_result {font-size:2em; padding-left:60px; width:30%; float:left;}
+.geo_wrap {width:100%; float:left; padding:15px 0 0 0;}
+.geo_wrap .material-switch {width:80px; float:right; padding-top:5px;}
+.geo_wrap .label-success {background-color: #fff;}
+.geo_wrap .material-switch > label:before {background:#29cc29; box-shadow:none;}
+.geo_wrap .material-switch > input[type="checkbox"]:checked + label::before {background:#29cc29; opacity:1}
+.geo_wrap .material-switch > label, .geo_wrap .material-switch > label::before {width:80px; height:29px;border-radius: 60px;}
+.geo_wrap .material-switch > input[type="checkbox"]:checked + label::after {left: 40px; top:-7px;}
+.geo_wrap .material-switch > label::after {top:-7px;}
+.geo_wrap .material-switch > label::after {width:43px; height:43px; border:1px solid #5c5c5c; border-radius:50%;}
+
+#settingModal .modal-header {background:#f2f2f2;}
+#settingModal h2.main_title {color:#464545; padding-left:0; padding-top:30px;}
+
+
+
