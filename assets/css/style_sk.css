@@ -1,5 +1,6 @@
 @charset "utf-8";
 /* CSS Document */
+.no-padding { padding: 0 !important; }
 .show_detail h3 .sub-title {
     font-size: 60%;
     color: #fff;
@@ -26,3 +27,85 @@ body.tv_shows_detail_bg {background-image:none;}
 .tv_shows_detail_wrap {margin-top:15px}
 .tv_shows_detail_wrap .tabs_wrap {width:100%; background:#ac7e1b; padding:15px 0}
 .tv_shows_detail_wrap .tabs_content { background: #885007; }
+
+.channel_landing .showcase_wrap > div.show_thumb.col-md-3.col-xs-5ths:nth-child(-n+5) div.blk_overlay{ display: none; }
+
+.view_all_tv_shows .showcase_wrap > div.show_thumb.col-md-3.col-xs-5ths:nth-child(-n+5) div.blk_overlay{ display: none; }
+.view_all_tv_shows .tvshow_time { width: 90%; margin: 0 auto; }
+.view_all_tv_shows .showcase_wrap .show_thumb { padding-bottom: 25px; }
+.view_all_tv_shows .showcase_wrap .show_thumb:hover .show_detail { background: #deaf00; }
+.view_all_tv_shows h2.main_title { color: #333333; }
+
+.view_all_tv_movies .showcase_wrap > div.show_thumb.col-md-3.col-xs-5ths:nth-child(-n+5) div.blk_overlay{ display: none; }
+.view_all_tv_movies .tvshow_time { width: 90%; margin: 0 auto; }
+.view_all_tv_movies .showcase_wrap .show_thumb { padding-bottom: 25px; }
+.view_all_tv_movies h2.main_title { color: #333333; }
+
+.outer_container { text-align: left; width: 100%; height: 100%; vertical-align: middle; position: relative; display: table; padding: 10%; }
+.outer_container.bg_grey{padding: 5%;}
+.inner_container { display: table-cell; vertical-align: middle; }
+.bg_img { width: 100%; height: 100vh;; overflow: hidden; }
+.bg_img img { width: 100%; height: 100%; }
+.row-height {
+  display: table;
+  table-layout: fixed;
+  height: 100%;
+  width: 100%;
+}
+.col-height {
+  display: table-cell;
+  float: none;
+  height: 100%;
+}
+.col-top {
+  vertical-align: top;
+}
+.col-middle {
+  vertical-align: middle;
+}
+.col-bottom {
+  vertical-align: bottom;
+}
+.content_container {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.54);
+}
+.rating-scale-parent .fa {
+    font-size: 4.800em;
+    margin-right: 20px;
+}
+#user_rating button {
+    width: 100%;
+    -webkit-appearance: none;
+    font-size: 2.5em;
+    font-family: 'breezesansregular', sans-serif;
+    border: 0;
+    background-color: transparent;
+    text-align: left;
+    padding: 3% 5%;
+}
+
+.rating-scale-parent {
+    text-align: left;
+    padding: 3% 5%;
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+}
+.bg_grey{ background-color: #6f7c82; color: #fff; }
+h1.rating_title {
+    margin-top: -13%;
+    margin-left: 10px;
+    font-size: 6em;
+    color: #fff;
+    font-family: 'breezesanslight', sans-serif;
+    text-transform: capitalize;
+}
+p.rating_desc {
+    font-size: 2.8em;
+    font-family: 'breezesansregular', sans-serif;
+    color: #e5e5e5;
+}
