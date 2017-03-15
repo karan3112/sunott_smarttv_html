@@ -20,6 +20,11 @@ h3.main_sub_title {
     font-weight: normal;
     padding-left: 15px;
 }
+h3.main_sub_title a {
+    color: #333333;
+    font-weight: normal;
+    padding-left: 15px;
+}
 .live_tv_landing h2.main_title { font-family: 'breezesansregular'; }
 /*TV Shows Details*/
 body.tv_shows_detail_bg {background-image:none;}

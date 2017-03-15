@@ -120,7 +120,7 @@ a:hover, a:focus {text-decoration:none;outline:none;}
 .show_detail h2 span.icon {width:15%; float:right; font-size:67%; text-align:right;color:#e9e9e9;}
 .show_detail a h2 span.icon {color:#e9e9e9;}
 .show_detail h2 span.icon img {position: relative; top: -5px; float:right;}
-.showcase_wrap .show_thumb:hover .show_thumb_inn {transform:scale(1.4); z-index:1;box-shadow: 0px 6px 20.37px 0.63px rgba(0, 0, 0, 0.75);}
+.showcase_wrap .show_thumb:hover .show_thumb_inn {transform:scale(1.3); z-index:1;box-shadow: 0px 6px 20.37px 0.63px rgba(0, 0, 0, 0.75); }
 .showcase_wrap .show_thumb:hover .show_thumb_inn .blk_overlay {background:rgba(0,0,0,0);}
 .showcase_wrap .show_thumb:hover .show_detail {background:#b17049;}
 .showcase_wrap .show_thumb.see:hover .show_detail {background:#175878;}
@@ -170,7 +170,7 @@ a:hover, a:focus {text-decoration:none;outline:none;}
 .mmenu li span.icon.subscription {background-position:0 -919px;}
 .mmenu li:hover span.icon.subscription {background-position:-70px -919px;}*/
 
-.menu_hit {width:15px; height:100%; background:#a80929; position:fixed; z-index:9}
+.menu_hit {width:15px; height:100%; background:#a80929; position:fixed; z-index:1}
 
 #page {overflow:hidden}
 .mmenu li:first-child:hover a {transform:scale(1);}
