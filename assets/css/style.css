@@ -99,28 +99,35 @@ background:url(../images/bg.jpg) no-repeat top center #f2f2f2; background-size:c
 a {outline:none;}
 a:hover, a:focus {text-decoration:none;outline:none;}
 
-/*.col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-xs-1, .col-xs-10, .col-xs-11, .col-xs-12, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9
-{padding-left:12px; padding-right:12px;}
-*/
+.col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-xs-1, .col-xs-10, .col-xs-11, .col-xs-12, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9
+{padding-left:8px; padding-right:8px;}
+
 .wrapper {margin:auto;}
 
 .logo_section {width:100%; }
 .logo_section .logo {float:right; padding:55px 100px 165px 0;}
 .showcase_wrap {width:100%; margin-bottom:40px;}
-.showcase_wrap:hover {z-index:1;}
+.showcase_wrap:hover {/*z-index:1;*/}
 .showcase_wrap .show_thumb {}
 .showcase_wrap a h2 span.title {color:#fff}
 .showcase_wrap .show_thumb_inn { position:relative;transition: all 0.8s ease; -webkit-transition: all 0.8s ease;}
 .showcase_wrap .show_img {width:100%; height:60%; overflow:hidden;}
 .showcase_wrap .show_img img {width:100%;}
 .blk_overlay {width:100%; height:100%; position:absolute; left:0; top:0; background:rgba(0,0,0,0.54);transition: all 0.8s ease; -webkit-transition: all 0.8s ease;}
-.show_detail {background:#9b9b9b; min-height:85px; padding:15px;transition: all 0.8s ease; -webkit-transition: all 0.8s ease;}
+.show_detail {background:#9b9b9b; min-height:70px; padding:15px;transition: all 0.8s ease; -webkit-transition: all 0.8s ease; }
+.show_detail:after {
+    display: block;
+    content: "";
+    clear: both;
+  }
 .show_detail h2 {padding:0; margin:0;}
-.show_detail h2 span.title {font-size:60%; color:#fff; font-weight:normal; width:100%; float:left; }
+.show_detail h2 span.title {font-size:60%; color:#fff; font-weight:normal; width:100%; float:left;overflow: hidden;height:41px;text-overflow: ellipsis;/*white-space: nowrap; */}
+.single_line h2 span.title {text-overflow: ellipsis;white-space: nowrap; height:22px}
+.single_line .see .show_detail {min-height:78px;}
 .show_detail h2 span.icon {width:15%; float:right; font-size:67%; text-align:right;color:#e9e9e9;}
 .show_detail a h2 span.icon {color:#e9e9e9;}
 .show_detail h2 span.icon img {position: relative; top: -5px; float:right;}
-.showcase_wrap .show_thumb:hover .show_thumb_inn {transform:scale(1.3); z-index:1;box-shadow: 0px 6px 20.37px 0.63px rgba(0, 0, 0, 0.75); }
+.showcase_wrap .show_thumb:hover .show_thumb_inn {transform:scale(1.2); z-index:1;box-shadow: 0px 6px 20.37px 0.63px rgba(0, 0, 0, 0.75); }
 .showcase_wrap .show_thumb:hover .show_thumb_inn .blk_overlay {background:rgba(0,0,0,0);}
 .showcase_wrap .show_thumb:hover .show_detail {background:#b17049;}
 .showcase_wrap .show_thumb.see:hover .show_detail {background:#175878;}
@@ -234,10 +241,10 @@ body.movie_detail_bg {background-image:none;}
 .col-lg-5ths {
     position: relative;
     min-height: 1px;
-    padding-right: 12px;
-    padding-left: 12px;
+    padding-right: 8px;
+    padding-left: 8px;
 }
-
+.icon-music:before{content:"\f001"; font-family: 'FontAwesome';}
 /*.col-xs-5ths {
     width: 20%;
     float: left;
@@ -277,7 +284,7 @@ html.mmenu-opened body.modal-open #mmenu-blocker {z-index:0;}
 .search_modal .modal-content {box-shadow:none; background:transparent; border:0; }
 .search_modal .modal-dialog {width:100%;}
 .speak_input input {width:100%; font-size:3em; color:#464646; padding:20px 40px; background:rgba(255,255,255,0.8); border:none; border-radius:10px}
-.search_modal .search_bt {position: relative; top: -22px;}
+.search_modal .search_bt {position: relative; top: -13px; left:5px}
 
 .modal.right{ padding-right: 0px !important;  }
 .modal.right .modal-dialog{

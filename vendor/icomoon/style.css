@@ -9,6 +9,17 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: 'kid';
+  src:  url('fonts/kid.eot?69h13w');
+  src:  url('fonts/kid.eot?69h13w#iefix') format('embedded-opentype'),
+    url('fonts/kid.ttf?69h13w') format('truetype'),
+    url('fonts/kid.woff?69h13w') format('woff'),
+    url('fonts/kid.svg?69h13w#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
 [class^="icon-"], [class*=" icon-"] {
   /* use !important to prevent issues with browser extensions that change fonts */
   font-family: 'icomoon' !important;
@@ -132,6 +143,11 @@
   content: "\e91d";
 }
 .icon-icn_video_play:before {
+	 font-family: 'kid';
   content: "\e91e";
 }
 
+.icon-kids:before {
+	font-family: 'kid';
+  content: "\e91f";
+}
