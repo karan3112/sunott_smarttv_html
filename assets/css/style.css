@@ -296,7 +296,8 @@ html.mmenu-opened body.modal-open #mmenu-blocker {z-index:0;}
 .search_modal .modal-content {box-shadow:none; background:transparent; border:0; }
 .search_modal .modal-dialog {width:100%;}
 .speak_input input {width:100%; font-size:3em; color:#464646; padding:20px 40px; background:rgba(255,255,255,0.8); border:none; border-radius:10px}
-.search_modal .search_bt {position: relative; top: -13px; left:5px}
+.search_modal .search_bt {position: relative; top: -13px;  left: -6px; width: 72%;}
+.search_modal .search_bt img {width: 82%;}
 
 .modal.right{ padding-right: 0px !important;  }
 .modal.right .modal-dialog{
