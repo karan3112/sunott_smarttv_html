@@ -63,3 +63,11 @@ function geolocate() {
     document.getElementById("geoResult").innerHTML = "No";
    }
 }
+
+$(window).scroll(function() {
+    if (  document.documentElement.clientHeight + 
+          $(document).scrollTop() >= document.body.offsetHeight )
+    { 
+	  $('html, body').animate({scrollTop:0}, 'slow');
+    }
+});
