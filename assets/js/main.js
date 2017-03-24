@@ -43,31 +43,17 @@ $('.modal').on('shown.bs.modal', function() {
     });
 });*/
 
-$("#geoLoaction").on("click", function() {
-  if (this.checked) {
-      $('#geoResult').text('Yes'); 
-  } else {
-	 $('#geoResult').text('No');
-  }
 
 });
 
-geolocate();
-});
 
-function geolocate() {
-   var box = document.getElementById("geoLoaction");
-   if (box.checked) {
-    document.getElementById("geoResult").innerHTML = "Yes";
-   } else {
-    document.getElementById("geoResult").innerHTML = "No";
-   }
-}
 
-$(window).scroll(function() {
+/*$(window).scroll(function() {
     if (  document.documentElement.clientHeight + 
           $(document).scrollTop() >= document.body.offsetHeight )
     { 
 	  $('html, body').animate({scrollTop:0}, 'slow');
     }
-});
+});*/
+
+
