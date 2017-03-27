@@ -7,6 +7,8 @@ $(function() {
 
     $('.showcase_wrap:first').trigger('focus');
 
+	
+
     keyboardSupport.handleLeftKey = function(event) {
         /*var selRowIds = $(".show_thumb:first");
 	if (selRowIds.length == 0) {
@@ -19,6 +21,7 @@ $(function() {
     if ($(event.currentTarget.activeElement).find('.show_thumb:first').hasClass('is-selected')) {
         $('.menu_hit').trigger("click");
         $('.menu_hit').focus();
+		$('.search_bt').focus();
         return false;
     } else {
 
@@ -29,7 +32,8 @@ $(function() {
         msg: "Handling key down event for LeftKey and Target is",
         target: event.currentTarget.activeElement
     });
-}; keyboardSupport.handleRightKey = function(event) {
+}; 
+keyboardSupport.handleRightKey = function(event) {
 
     if ($('#menu').hasClass('mmenu-opened')) {
         $('#mmenu-blocker').trigger("click");
@@ -45,7 +49,9 @@ $(function() {
         msg: "Handling key down event for RightKey and Target is",
         target: event.currentTarget.activeElement
     });
-}; keyboardSupport.handleUpKey = function(event) {
+	
+}; 
+keyboardSupport.handleUpKey = function(event) {
     var nextFocus = $(event.currentTarget.activeElement).attr('data-previous-focus');
     $('.is-selected').removeClass('is-selected');
     $(nextFocus).trigger('focus');
@@ -57,7 +63,8 @@ $(function() {
         msg: "Handling key down event for UpKey and Target is",
         target: event.currentTarget.activeElement
     });
-}; keyboardSupport.handleDownKey = function(event) {
+}; 
+keyboardSupport.handleDownKey = function(event) {
     var nextFocus = $(event.currentTarget.activeElement).attr('data-next-focus');
     $('.is-selected').removeClass('is-selected');
     $(nextFocus).trigger('focus');
@@ -69,22 +76,26 @@ $(function() {
         msg: "Handling key down event for DownKey and Target is",
         target: event.currentTarget.activeElement
     });
-}; keyboardSupport.centerElement = function(event) {
+}; 
+keyboardSupport.centerElement = function(event) {
     console.log({
         msg: "Handling key down event for centerElement and Target is",
         target: event.currentTarget.activeElement
     });
-}; keyboardSupport.horCenterElement = function(event) {
+}; 
+keyboardSupport.horCenterElement = function(event) {
     console.log({
         msg: "Handling key down event for horCenterElement and Target is",
         target: event.currentTarget.activeElement
     });
-}; keyboardSupport.handleReturnKey = function(event) {
+}; 
+keyboardSupport.handleReturnKey = function(event) {
     console.log({
         msg: "Handling key down event for ReturnKey and Target is",
         target: event.currentTarget.activeElement
     });
-}; keyboardSupport.handleBackKey = function(event) {
+}; 
+keyboardSupport.handleBackKey = function(event) {
     console.log({
         msg: "Handling key down event for BackKey and Target is",
         target: event.currentTarget.activeElement

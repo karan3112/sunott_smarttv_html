@@ -93,7 +93,7 @@
 }
 
 
-body {overflow: hidden; font-family: 'breezesansregular'; -webkit-font-smoothing: subpixel-antialiased;-webkit-text-stroke: rgba(255,255,255,0.01) 0.1px; -webkit-text-stroke-width: 0.1px; /*Safari & crome font smoothness*/ 
+body {/*overflow: hidden;*/ font-family: 'breezesansregular'; -webkit-font-smoothing: subpixel-antialiased;-webkit-text-stroke: rgba(255,255,255,0.01) 0.1px; -webkit-text-stroke-width: 0.1px; /*Safari & crome font smoothness*/ 
 background:url(../images/bg.jpg) no-repeat top center #f2f2f2; background-size:cover; overflow-x:hidden; font-size:100%;}
 
 a {outline:none;}
@@ -177,7 +177,7 @@ button:focus {
 .mmenu {z-index:1; background:#a80929;color:#cdcdcd; }
 .mmenu ul, .mmenu li, .mmenu li > a {width:100%; display:block; margin:0; padding:15px 0 15px 15px;color:#cdcdcd;font-size:1.2em;font-family: 'breezesansbold_condensed'; line-height:31px;}
 .mmenu li > a {padding:0;transition: all 0.5s ease; -webkit-transition: all 0.5s ease;}
-.mmenu li:hover a {transform:scale(1.2); transform-origin: top left; color:#fff;}
+.mmenu li:hover a, .mmenu li a:focus {transform:scale(1.2); transform-origin: top left; color:#fff;}
 .mmenu li span.icon {font-size:1.2em; margin-right: 15px; display:inline-block;}
 /*.mmenu li span.icon {width:31px; height:31px; display:inline-block; background:url(../images/menu_icon.png) no-repeat;margin-right: 15px;}
 
@@ -264,6 +264,8 @@ body.movie_detail_bg {background-image:none;}
 .movie_detail_wrap.channel_landing .tabs_wrap .tabs_inn .nav li a {color:#ababab}
 .movie_detail_wrap.channel_landing .tabs_wrap .tabs_inn .nav-tabs > li.active > a, .movie_detail_wrap.channel_landing .tabs_wrap .tabs_inn .nav-tabs > li.active > a:focus, .movie_detail_wrap.channel_landing .tabs_wrap .tabs_inn .nav-tabs > li.active > a:hover {background:rgba(0,0,0,0.3); color:#fff;}
 
+a.tt1:focus {border:1px solid red;}
+
 
 .movie_detail_wrap.channel_landing .tabs_wrap .tabs_inn .nav > li > a:focus, .movie_detail_wrap.channel_landing .tabs_wrap .tabs_inn .nav > li > a:hover {background:rgba(0,0,0,0.3); border:none; color:#fff;}
 
@@ -271,6 +273,8 @@ body.movie_detail_bg {background-image:none;}
 .movie_detail_wrap.channel_landing .tabs_inn {width:90%}
 .movie_detail_wrap.channel_landing .showcase_wrap .show_thumb {margin-bottom:30px;}
 .movie_detail_wrap.channel_landing .show_detail h3 .sub-title {font-size:60%;}
+
+
 
 /*Equal 5 coloumb start here*/
 .col-xs-5ths {
