@@ -118,6 +118,7 @@ button:focus {
 
 .logo_section {width:100%; }
 .logo_section .logo {float:right; padding:55px 100px 165px 0;}
+.logo_section .logo a {display:block;}
 .showcase_wrap {width:100%; margin-bottom:40px;}
 .showcase_wrap:hover {z-index:1;}
 .showcase_wrap:focus .blk_overlay {background:rgba(0,0,0,0);}
