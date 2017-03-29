@@ -25,7 +25,11 @@ $('.modal').on('shown.bs.modal', function() {
 
 
 
-
+$('.body_setting').click(function(){
+	  //$("#settingModal input:first").trigger('focus');
+	  #('#settingModal').focus();
+	  $('#geoLoaction').focus();
+});
 /*$('.search_cta').click(function(){
 	 $('#myModal').modal('show');
 });*/

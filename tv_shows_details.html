@@ -19,22 +19,25 @@
             <a href="#menu" class="menu_hit"><span></span></a>
             <div class="container-fluid main_container">
                 <header>
-                    <div class="logo_section clearfix">
-                        <div class="logo"><a href="#"><img src="assets/images/logo.png" alt="" /> </a></div>
+                    <div class="logo_section clearfix" tabindex="-1">
+                    <div class="logo" tabindex="-1">
+                        <a href="#" tabindex="-1" data-next-focus=".tv_shows_detail_wrap"><img src="assets/images/logo.png" alt="" /> </a>
                     </div>
+                </div>
                     <!--logo_section-->
                 </header>
                 <div class="container_wrap">
-                    <div class="tv_shows_detail_wrap">
+                    <div class="tv_shows_detail_wrap" data-previous-focus=".logo_section .logo a" 
+                    data-next-focus=".tv_shows_promos .showcase_wrap">
                         <div class="tabs_wrap clearfix">
                             <div class="tabs_inn">
                                 <div class="col-md-3"></div>
                                 <div class="col-md-9">
                                     <ul class="nav nav-tabs">
-                                        <li class="active"><a data-toggle="tab" href="#play">Play</a></li>
-                                        <li><a data-toggle="tab" href="#favourite">Favourite</a></li>
-                                        <li><a data-toggle="tab" href="#share">Share</a></li>
-                                    </ul>
+                  <li tabindex="-1"><a data-toggle="tab" data-tabnxt-focus="li a.t2" data-previous-focus=".logo_section .logo a" data-next-focus=".tv_shows_promos .showcase_wrap" class="t1 focustrigger" href="#play">Play</a></li>
+                  <li tabindex="-1"><a data-toggle="tab" data-tabnxt-focus="li a.t3" data-tabprev-focus="li a.t1" data-previous-focus=".logo_section .logo a" data-next-focus=".tv_shows_promos .showcase_wrap" href="#favourite" class="t2" tabindex="-1">Favourite</a></li>
+                  <li tabindex="-1"><a data-toggle="tab" data-tabprev-focus="li a.t2" data-previous-focus=".logo_section .logo a" data-next-focus=".tv_shows_promos .showcase_wrap" class="t3" href="#share" tabindex="-1">Share</a></li>
+                </ul>
                                 </div>
                             </div>
                             <!--tabs_inn-->
@@ -85,8 +88,11 @@
                     <!--movie_detail_wrap-->
                     <section class="tv_shows_promos">
                         <h2 class="main_title">Promos</h2>
-                        <div class="showcase_wrap" data-flickity='{ "freeScroll": true, "cellAlign" : "left", "pageDots": false, "prevNextButtons": false, "contain": true, "imagesLoaded": true}'>
-                            <div class="show_thumb col-md-4">
+                        <div tabindex="-1" class="showcase_wrap" 
+                        data-previous-focus=".tv_shows_detail_wrap" 
+            			data-next-focus=".tv_shows_episodes .showcase_wrap"
+                        data-flickity='{ "freeScroll": true, "cellAlign" : "left", "pageDots": false, "prevNextButtons": false, "contain": true, "imagesLoaded": true}'>
+                            <div tabindex="-1" class="show_thumb col-md-4">
                                 <a href="#">
                                     <div class="show_thumb_inn">
                                         <div class="show_img">
@@ -105,7 +111,7 @@
                                 </a>
                             </div>
                             <!--show_thumb-->
-                            <div class="show_thumb col-md-4">
+                            <div tabindex="-1" class="show_thumb col-md-4">
                                 <a href="#">
                                     <div class="show_thumb_inn">
                                         <div class="show_img">
@@ -124,7 +130,7 @@
                                 </a>
                             </div>
                             <!--show_thumb-->
-                            <div class="show_thumb col-md-4">
+                            <div tabindex="-1" class="show_thumb col-md-4">
                                 <a href="#">
                                     <div class="show_thumb_inn">
                                         <div class="show_img">
@@ -143,7 +149,7 @@
                                 </a>
                             </div>
                             <!--show_thumb-->
-                            <div class="show_thumb col-md-4">
+                            <div tabindex="-1" class="show_thumb col-md-4">
                                 <a href="#">
                                     <div class="show_thumb_inn">
                                         <div class="show_img">
@@ -162,7 +168,7 @@
                                 </a>
                             </div>
                             <!--show_thumb-->
-                            <div class="show_thumb col-md-4">
+                            <div tabindex="-1" class="show_thumb col-md-4">
                                 <a href="#">
                                     <div class="show_thumb_inn">
                                         <div class="show_img">
@@ -181,7 +187,7 @@
                                 </a>
                             </div>
                             <!--show_thumb-->
-                            <div class="show_thumb col-md-4">
+                            <div tabindex="-1" class="show_thumb col-md-4">
                                 <a href="#">
                                     <div class="show_thumb_inn">
                                         <div class="show_img">
@@ -205,8 +211,10 @@
                     </section>
                     <section class="tv_shows_episodes">
                         <h2 class="main_title">Episodes</h2>
-                        <div class="showcase_wrap" data-flickity='{ "freeScroll": true, "cellAlign" : "left", "pageDots": false, "prevNextButtons": false, "contain": true, "imagesLoaded": true}'>
-                            <div class="show_thumb col-md-4">
+                        <div tabindex="-1" class="showcase_wrap" 
+                        data-previous-focus=".tv_shows_promos .showcase_wrap" 
+                        data-flickity='{ "freeScroll": true, "cellAlign" : "left", "pageDots": false, "prevNextButtons": false, "contain": true, "imagesLoaded": true}'>
+                            <div tabindex="-1" class="show_thumb col-md-4">
                                 <a href="#">
                                     <div class="show_thumb_inn">
                                         <div class="show_img">
@@ -225,7 +233,7 @@
                                 </a>
                             </div>
                             <!--show_thumb-->
-                            <div class="show_thumb col-md-4">
+                            <div tabindex="-1" class="show_thumb col-md-4">
                                 <a href="#">
                                     <div class="show_thumb_inn">
                                         <div class="show_img">
@@ -244,7 +252,7 @@
                                 </a>
                             </div>
                             <!--show_thumb-->
-                            <div class="show_thumb col-md-4">
+                            <div tabindex="-1" class="show_thumb col-md-4">
                                 <a href="#">
                                     <div class="show_thumb_inn">
                                         <div class="show_img">
@@ -263,7 +271,7 @@
                                 </a>
                             </div>
                             <!--show_thumb-->
-                            <div class="show_thumb col-md-4">
+                            <div tabindex="-1" class="show_thumb col-md-4">
                                 <a href="#">
                                     <div class="show_thumb_inn">
                                         <div class="show_img">
@@ -282,7 +290,7 @@
                                 </a>
                             </div>
                             <!--show_thumb-->
-                            <div class="show_thumb col-md-4">
+                            <div tabindex="-1" class="show_thumb col-md-4">
                                 <a href="#">
                                     <div class="show_thumb_inn">
                                         <div class="show_img">
@@ -301,7 +309,7 @@
                                 </a>
                             </div>
                             <!--show_thumb-->
-                            <div class="show_thumb col-md-4">
+                            <div tabindex="-1" class="show_thumb col-md-4">
                                 <a href="#">
                                     <div class="show_thumb_inn">
                                         <div class="show_img">

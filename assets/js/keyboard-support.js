@@ -6,7 +6,7 @@ $(function() {
     var keyboardSupport = keyboardSupport || {};
 
     $('.showcase_wrap:first').trigger('focus');
-
+	$('.focustrigger').trigger('focus');
 	
 
     keyboardSupport.handleLeftKey = function(event) {
@@ -26,12 +26,18 @@ $(function() {
     } else {
 
     }
+	
+	var nextTabFocus = $(event.currentTarget.activeElement).attr('data-tabprev-focus');    
+    $(nextTabFocus).trigger('focus');
+	
+	$(event.currentTarget.activeElement).prev().trigger('focus');
 
     $(event.currentTarget.activeElement).parents('.showcase_wrap:first').flickity('previous');
     console.log({
         msg: "Handling key down event for LeftKey and Target is",
         target: event.currentTarget.activeElement
-    });
+    });	
+	
 }; 
 keyboardSupport.handleRightKey = function(event) {
 
@@ -43,6 +49,15 @@ keyboardSupport.handleRightKey = function(event) {
         //$(this).trigger("click");
         // $('.gloabl_serach_update .search_inn input[type=search]').focus();
     }
+	
+	var nextTabFocus = $(event.currentTarget.activeElement).attr('data-tabnxt-focus');    
+    $(nextTabFocus).trigger('focus');
+	
+	/*var index = $('.show_thumb').index(this) + 1;
+    $('.show_thumb').eq(index).focus();
+	alert(index);*/
+	
+	$(event.currentTarget.activeElement).next().trigger('focus');
 
     $(event.currentTarget.activeElement).parents('.showcase_wrap:first').flickity('next');
     console.log({
@@ -59,12 +74,20 @@ keyboardSupport.handleUpKey = function(event) {
     if (typeof $(nextFocus).offset() != 'undefined') {
         body.stop().animate({ scrollTop: $(nextFocus).offset().top }, '500', 'swing');
     }
+	
+    
+	$(event.currentTarget.activeElement)
+		.parents('.showcase_wrap:first').find('.show_thumb')
+		.eq($(event.currentTarget.activeElement).index() - 5)
+		.trigger('focus');
+
     console.log({
         msg: "Handling key down event for UpKey and Target is",
         target: event.currentTarget.activeElement
     });
 }; 
 keyboardSupport.handleDownKey = function(event) {
+	
     var nextFocus = $(event.currentTarget.activeElement).attr('data-next-focus');
     $('.is-selected').removeClass('is-selected');
     $(nextFocus).trigger('focus');
@@ -72,6 +95,14 @@ keyboardSupport.handleDownKey = function(event) {
     if (typeof $(nextFocus).offset() != 'undefined') {
         body.stop().animate({ scrollTop: $(nextFocus).offset().top }, 700);
     }
+	$(event.currentTarget.activeElement)
+		.parents('.showcase_wrap:first').find('.show_thumb')
+		.eq($(event.currentTarget.activeElement).index() + 5)
+		.trigger('focus');
+
+		var inputIndex = $('inputs').index(this) + 1;
+         $('inputs').eq(inputIndex).focus();
+
     console.log({
         msg: "Handling key down event for DownKey and Target is",
         target: event.currentTarget.activeElement
